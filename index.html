@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="stylesheet.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Interactive rating component</title>
+</head>
+<body>
+  <main>
+    <div class="rating-state">
+      <section class="content-container">
+        <header class="text-container">
+          <div class="star-container">
+            <img alt="yellow star icon" class="icon" src="images/icon-star.svg">
+          </div>
+          <h1 class="title" id="rating-question">How did we do?</h1>
+          <p class="plain-text" id="rating-state-text">Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
+        </header>
+        <div class="rating-button-container">
+          <button class="RatingButton" value="1" aria-label="Rate 1 out of 5">1</button>
+          <button class="RatingButton" value="2" aria-label="Rate 2 out of 5">2</button>
+          <button class="RatingButton" value="3" aria-label="Rate 3 out of 5">3</button>
+          <button class="RatingButton" value="4" aria-label="Rate 4 out of 5">4</button>
+          <button class="RatingButton" value="5" aria-label="Rate 5 out of 5">5</button>
+        </div>
+        <button class="submit-button">Submit</button>
+      </section>
+    </div>
+    <div class="thank-you-state" hidden="true">
+      <section class="content-container">
+        <header>
+          <div class="picture-container">
+            <img alt="ilustration of a mobile phone" src="images/illustration-thank-you.svg">
+          </div>
+          <label class="user-rating-label">You selected !! out of 5</label>
+        </header>
+        <div class="text-container">
+          <h1 class="title" id="thank-you-title">Thank you!</h1>  
+          <p class="plain-text" id="thank-you-text">We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch!</p>
+        </div>
+      </section>
+  </main>
+  <script src="script.js"></script>
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">my fuckin name Here</a>.
+  </footer>
+</body> 
+</html>
